@@ -79,7 +79,9 @@ figure {
 
 ul,
 ol,
-blockquote {
+blockquote *{
+    font-size: inherit;
+    line-height: inherit;
 
 }
 
@@ -111,15 +113,16 @@ margin: 0 0 24px;
 }
 
 a {
-
+    color: RoyalBlue;
+    transition: all .1ms ease-in-out;
 }
-
+/* Love conquers Hate */
 a:hover,
 a:focus {
-
+color: Crimson;
 }
 
 a:visited,
 a:active {
-
+    color: BlueViolet;
 }
