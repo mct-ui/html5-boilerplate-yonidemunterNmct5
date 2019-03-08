@@ -1,7 +1,107 @@
-body{
-    background: red;
-}
 
 h1{
     color:Yellow
+}
+
+
+html{font-size: 16px;
+line-height: 1.5;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+background: Teal;
+padding: 24px 24px 0;}
+
+
+
+
+::-moz-selection {background: #E85e00; color:white; text-shadow: none;
+
+}
+
+::selection {background: #E85e00; color:white; text-shadow: none;
+
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img {
+    max-width:100%;
+    vertical-align: top;
+}
+
+/*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+*/
+
+h1 {font-family: "Times New Roman", serif;
+font-size: 36px;
+line-height: 40px;
+margin: 0 0 48px
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4,
+h5,
+h6 {
+
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+
+}
+
+ul,
+ol,
+blockquote {
+
+}
+
+li ul,
+li ol{
+
+}
+
+blockquote {
+
+}
+
+figcaption {
+
+}
+
+hr {
+
+}
+
+a {
+
+}
+
+a:hover,
+a:focus {
+
+}
+
+a:visited,
+a:active {
+
 }
